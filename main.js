@@ -17,7 +17,7 @@ const request = async () => {
     userAction()
   })
 
-  setTimeout(()=>upload(Imagedata), 5000)
+  setTimeout(()=>upload(Imagedata), 3000)
   
 }
 
@@ -28,6 +28,19 @@ function upload(Imagedata) {
       document.getElementById('displayer').innerHTML += html;
     }
   };
+  eventer()
+}
+
+function eventer() {
+  var classname = document.getElementsByClassName("card");
+
+  var myFunction = function() {
+    console.log(this)
+  };
+
+  for (var i = 0; i < classname.length; i++) {
+    classname[i].addEventListener('click', myFunction, false);
+  }
 }
 
 request()
