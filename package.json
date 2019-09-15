@@ -1,0 +1,26 @@
+{
+  "name": "vscode-icons-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecodingaviator/vscode-icons-app.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thecodingaviator/vscode-icons-app/issues"
+  },
+  "homepage": "https://github.com/thecodingaviator/vscode-icons-app#readme",
+  "devDependencies": {
+    "electron": "^6.0.9"
+  },
+  "dependencies": {
+    "electron-main-fetch": "^0.2.0",
+    "electron-packager": "^14.0.6"
+  }
+}
