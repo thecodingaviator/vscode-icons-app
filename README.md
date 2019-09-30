@@ -5,4 +5,4 @@ The app is still a WIP.
 
 ToDo:
 
-[] Figure out how to edit shortcuts using Electron
+[ ] Figure out how to edit shortcuts using Electron
