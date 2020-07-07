@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/thecodingaviator/vscode-icons-app#readme",
   "devDependencies": {
-    "electron": "^6.0.9"
+    "electron": "^9.1.0"
   },
   "dependencies": {
     "electron-main-fetch": "^0.2.0",
